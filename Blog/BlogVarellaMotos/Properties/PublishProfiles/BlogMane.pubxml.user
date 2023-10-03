@@ -21,16 +21,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:44</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>10/02/2023 21:46:34</publishTime>
+      <publishTime>10/02/2023 22:37:49</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>10/02/2023 21:46:33</publishTime>
+      <publishTime>10/02/2023 22:37:49</publishTime>
     </File>
     <File Include="bin/BlogVarellaMotos.dll">
-      <publishTime>10/02/2023 21:46:31</publishTime>
+      <publishTime>10/02/2023 22:37:45</publishTime>
     </File>
     <File Include="bin/BlogVarellaMotos.pdb">
-      <publishTime>10/02/2023 21:46:31</publishTime>
+      <publishTime>10/02/2023 22:37:45</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>08/07/2023 20:36:47</publishTime>
@@ -252,13 +252,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/1x1.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:51</publishTime>
     </File>
     <File Include="imagens/layout/2b.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:51</publishTime>
     </File>
     <File Include="imagens/layout/atencao.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:48</publishTime>
     </File>
     <File Include="imagens/layout/avaliar-loja.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -267,19 +267,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/bg_overlay.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:47</publishTime>
     </File>
     <File Include="imagens/layout/bg_top.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/btAvaliar.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:43</publishTime>
     </File>
     <File Include="imagens/layout/btFecharAv.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:43</publishTime>
     </File>
     <File Include="imagens/layout/btSetaAv.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:43</publishTime>
     </File>
     <File Include="imagens/layout/bt_000001.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -315,13 +315,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/bt_imbBoleto.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:42</publishTime>
     </File>
     <File Include="imagens/layout/bt_impBoleto.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:42</publishTime>
     </File>
     <File Include="imagens/layout/bt_pag_PagSeguro.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:41</publishTime>
     </File>
     <File Include="imagens/layout/bt_up.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -348,13 +348,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/Check.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:40</publishTime>
     </File>
     <File Include="imagens/layout/check_a.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:40</publishTime>
     </File>
     <File Include="imagens/layout/check_m.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:39</publishTime>
     </File>
     <File Include="imagens/layout/clearsale.antifraude.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -366,7 +366,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/close.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:39</publishTime>
     </File>
     <File Include="imagens/layout/codVel.jpg">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -423,7 +423,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/18/2023 09:00:37</publishTime>
     </File>
     <File Include="imagens/layout/gray.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:37</publishTime>
     </File>
     <File Include="imagens/layout/icoMenu_000001.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -492,13 +492,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/indisp.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:34</publishTime>
     </File>
     <File Include="imagens/layout/loading.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:33</publishTime>
     </File>
     <File Include="imagens/layout/loading2.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:32</publishTime>
     </File>
     <File Include="imagens/layout/logo.1.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -507,34 +507,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/18/2023 09:00:32</publishTime>
     </File>
     <File Include="imagens/layout/logo_amex.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:32</publishTime>
     </File>
     <File Include="imagens/layout/logo_aura.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:32</publishTime>
     </File>
     <File Include="imagens/layout/logo_boleto.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:31</publishTime>
     </File>
     <File Include="imagens/layout/logo_diners.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:31</publishTime>
     </File>
     <File Include="imagens/layout/logo_discover.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:30</publishTime>
     </File>
     <File Include="imagens/layout/logo_elo.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:30</publishTime>
     </File>
     <File Include="imagens/layout/logo_hipercard.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:29</publishTime>
     </File>
     <File Include="imagens/layout/logo_jcb.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:29</publishTime>
     </File>
     <File Include="imagens/layout/logo_master.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:29</publishTime>
     </File>
     <File Include="imagens/layout/logo_visa.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:29</publishTime>
     </File>
     <File Include="imagens/layout/loja-fisica.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -627,10 +627,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/overlayo.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:20</publishTime>
     </File>
     <File Include="imagens/layout/pag_PagSeguro.gif">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:20</publishTime>
     </File>
     <File Include="imagens/layout/pgtos_pagseguro.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -759,61 +759,61 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="imagens/layout/starWht.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:16</publishTime>
     </File>
     <File Include="imagens/layout/starWht_m.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:15</publishTime>
     </File>
     <File Include="imagens/layout/starYlw.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:15</publishTime>
     </File>
     <File Include="imagens/layout/starYlw_m.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:15</publishTime>
     </File>
     <File Include="imagens/layout/statusCancel.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:15</publishTime>
     </File>
     <File Include="imagens/layout/statusOff.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:14</publishTime>
     </File>
     <File Include="imagens/layout/statusOn.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:14</publishTime>
     </File>
     <File Include="imagens/layout/statusWait.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:13</publishTime>
     </File>
     <File Include="imagens/layout/status_1.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:13</publishTime>
     </File>
     <File Include="imagens/layout/status_10.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:12</publishTime>
     </File>
     <File Include="imagens/layout/status_11.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:12</publishTime>
     </File>
     <File Include="imagens/layout/status_2.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:11</publishTime>
     </File>
     <File Include="imagens/layout/status_3.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:11</publishTime>
     </File>
     <File Include="imagens/layout/status_4.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:11</publishTime>
     </File>
     <File Include="imagens/layout/status_5.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:11</publishTime>
     </File>
     <File Include="imagens/layout/status_6.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:10</publishTime>
     </File>
     <File Include="imagens/layout/status_7.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:10</publishTime>
     </File>
     <File Include="imagens/layout/status_8.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:09</publishTime>
     </File>
     <File Include="imagens/layout/status_9.png">
-      <publishTime>08/07/2023 20:36:45</publishTime>
+      <publishTime>05/18/2023 09:00:09</publishTime>
     </File>
     <File Include="imagens/layout/top_inf.png">
       <publishTime>08/07/2023 20:36:45</publishTime>
@@ -861,7 +861,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:45</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>10/02/2023 21:46:31</publishTime>
+      <publishTime>10/02/2023 22:37:47</publishTime>
     </File>
     <File Include="Reports/%28modelo email%29 - Default.html">
       <publishTime>08/07/2023 20:36:44</publishTime>
@@ -957,7 +957,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2023 21:45:45</publishTime>
     </File>
     <File Include="Views/Blog/Index.cshtml">
-      <publishTime>10/02/2023 21:34:06</publishTime>
+      <publishTime>10/02/2023 22:37:28</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>08/07/2023 20:36:44</publishTime>
@@ -990,7 +990,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/02/2023 21:46:19</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutAdmin.cshtml">
-      <publishTime>08/07/2023 20:36:44</publishTime>
+      <publishTime>10/02/2023 22:27:54</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>08/07/2023 20:36:44</publishTime>
@@ -1002,7 +1002,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/07/2023 20:36:44</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/28/2023 20:54:04</publishTime>
+      <publishTime>10/02/2023 22:37:46</publishTime>
     </File>
   </ItemGroup>
 </Project>
