@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\E-comm-Agro\Blog_Public</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>10/02/2023 21:46:34</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>10/02/2023 21:46:33</publishTime>
+    </File>
+    <File Include="bin/BlogVarellaMotos.dll">
+      <publishTime>10/02/2023 21:46:31</publishTime>
+    </File>
+    <File Include="bin/BlogVarellaMotos.pdb">
+      <publishTime>10/02/2023 21:46:31</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/16/2019 15:40:38</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>08/07/2023 20:36:47</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/28/2023 23:22:49</publishTime>
+    </File>
+    <File Include="Content/Site2.css">
+      <publishTime>09/27/2023 22:48:24</publishTime>
+    </File>
+    <File Include="DAL/BlogVarellaMotosData.edmx.diagram">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/27/2023 19:43:40</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/back.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/1x1.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/2b.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/atencao.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/avaliar-loja.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bg_news.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bg_overlay.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bg_top.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/btAvaliar.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/btFecharAv.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/btSetaAv.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_000001.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_000001_a.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_000002.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_000002_a.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_buscar.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_buscar_v.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_down.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_DownD.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_fb16.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_fb24.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_fb32.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_imbBoleto.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_impBoleto.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_pag_PagSeguro.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_up.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/bt_UpD.png">
+      <publishTime>05/18/2023 09:00:41</publishTime>
+    </File>
+    <File Include="imagens/layout/buscar_v.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/busca_medidas.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/busca_medidas2.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/busca_medidas_h.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/carr.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/car_btcomprar.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/Check.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/check_a.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/check_m.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/clearsale.antifraude.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/clearsale.rdp.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/clearsale3.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/close.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/codVel.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/compreeconfie.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/credenciado1.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/credenciado1_rdp.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/faixa03.0.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/faixa03.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/favicon.ico">
+      <publishTime>06/27/2023 19:43:40</publishTime>
+    </File>
+    <File Include="imagens/layout/forms_pgto.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/forms_pgto2.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_01.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_02.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_03.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_04.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_10x.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_30d.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_5p.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/fx_ER.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/google.png">
+      <publishTime>05/18/2023 09:00:37</publishTime>
+    </File>
+    <File Include="imagens/layout/gray.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000001.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000002.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000003.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000004.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000006.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000007.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000008.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icoMenu_000009.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/icons_loja.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/ico_menu.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/imgAjudaOff.jpeg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/imgAjudaOn.jpeg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/imgs_sprite_deps.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_news.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_presente.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_pw.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_pw_b.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_sprite.1.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_sprite.2.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/img_sprite.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/indiCarga.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/indique.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/indisp.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/loading.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/loading2.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo.1.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo.png">
+      <publishTime>05/18/2023 09:00:32</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_amex.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_aura.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_boleto.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_diners.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_discover.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_elo.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_hipercard.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_jcb.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_master.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/logo_visa.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/loja-fisica.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/medida_alt.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/medida_alt.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/medida_aro.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/medida_aro.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/medida_larg.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/medida_larg.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/norton.png">
+      <publishTime>05/18/2023 09:00:21</publishTime>
+    </File>
+    <File Include="imagens/layout/old/10x.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/30d.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/5desc.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/btComprar_txt.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/bt_lanc.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/fx_10x.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/fx_30d.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/fx_5p.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/icoDescrDetal.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/icoFPgtoDetal.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/icoFreteDetal.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/ico_fita_depart.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/ico_tel.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/img_prom.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/logon.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/lupa.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/medida_alt.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/medida_aro.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/medida_larg.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/sacola.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/seta_r.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/old/top_menu.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/overlayo.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/pag_PagSeguro.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/pgtos_pagseguro.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/pirelli.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/pirelli.old.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella1.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella1p.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella2.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella2p.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella3.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella3p.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella4.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella4p.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella5.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella5p.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella6.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/imgVarella6p.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella1.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella1.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella2.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella2.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella3.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella3.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella4.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella4.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella5.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella5.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella6.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella6.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella7.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella7.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella8.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/old/imgVarella8.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/qs/pirelli.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/selo_qs.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_a.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_b.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_c.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_d.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_e.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_f.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/seta_mn.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/social-fb-on.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/social-fb.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/starWht.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/starWht_m.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/starYlw.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/starYlw_m.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/statusCancel.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/statusOff.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/statusOn.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/statusWait.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_1.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_10.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_11.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_2.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_3.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_4.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_5.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_6.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_7.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_8.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/status_9.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/top_inf.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/veja_abaixo.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/veja_abaixo2.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/wts.png">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/layout/zoom_img.gif">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000001.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000002.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000003.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000004.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000008.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000010.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000013.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000034.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/marcas/000041.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="imagens/posts/post_capa_1.jpg">
+      <publishTime>08/07/2023 20:36:45</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>10/02/2023 21:46:31</publishTime>
+    </File>
+    <File Include="Reports/%28modelo email%29 - Default.html">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>09/28/2023 23:24:12</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Admin/BlogPosts.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Admin/ConfirmDeleteBlogPost.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Admin/CreateBlogPost.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Admin/EditBlogPost.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Admin/Index.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Blog/Artigo.cshtml">
+      <publishTime>09/25/2023 21:45:45</publishTime>
+    </File>
+    <File Include="Views/Blog/Index.cshtml">
+      <publishTime>10/02/2023 21:34:06</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangeNameUser.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>10/02/2023 21:46:19</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutAdmin.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>08/07/2023 20:36:44</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/28/2023 20:54:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

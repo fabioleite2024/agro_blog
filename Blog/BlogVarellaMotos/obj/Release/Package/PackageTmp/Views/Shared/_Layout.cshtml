@@ -1,0 +1,502 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="icon" type="image/x-icon" href="../imagens/layout/favicon.ico">
+    <title>Blog Agropecuária do Mané</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500&family=Sora:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Sans:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+
+    @*<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />*@
+    @*<link href="~/Content/Site_2.css" rel="stylesheet" type="text/css" />*@
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</head>
+<body>
+    <section id="header-topo">
+        <div class="bordastopo" id="bordastopo">
+            <div class="mar_cores">
+                <div class="mar_cor"> 🐶 Site novinho em folha e cheio de ofertas para você 🐱 </div>
+            </div>
+            <div id="topo" class="topo">
+                <div class="top_center">
+                    <div class="ctrl_cont">
+                        <div class="topo-left">
+                            <div id="infosTop" class="infosTop">
+                                <img src="/imagens/layout/menu-mb.svg" class="bg_menu_m" alt="" onclick="javascript:abr_mn();" />
+                            </div>
+                            <div class="logomarca">
+                                <a href="~/loja">
+                                    <img id="imgLogo" src="/imagens/layout/logo.png" alt="" class="imgLogo" />
+                                </a>
+                            </div>
+                            <div class="topo-left-control"></div>
+                        </div>
+                        <div class="img_mascote">
+                            <img class="img_mascote" src="/imagens/layout/mascote.png" />
+                        </div>
+                        <div class="img_map">
+                            <a class="link_Mane" href="https://www.agropecuariadomane.com.br/quem-somos">
+                                <img src="/imagens/layout/maps.png" />
+                            </a>
+                        </div>
+                        <div class="maps_">
+                            <a class="link_Mane" href="https://www.agropecuariadomane.com.br/quem-somos">
+                                <span class="maps_n">Nossas</span>
+                                <span class="maps_1">Lojas</span><br />
+                                <span class="maps_2">Sempre perto de você</span>
+                            </a>
+                        </div>
+                        <div class="topo-center">
+                            <div id="bg_busca" class="bg_busca">
+                                <input type="text" id="txtBuscaProd" class="txtBuscaProd" maxlength="30" value=""
+                                       title="Busque produtos para seu pet, jardim ou casa" placeholder="Busque produtos para seu pet, jardim ou casa"
+                                       x-webkit-speech="x-webkit-speech" oninput="transcribe2(this.value)">
+                                <input type="button" id="btBuscar" class="btBuscar" value="" onclick="return validaBuscar(this);">
+                            </div>
+                        </div>
+                        <div class="topo-right">
+                            <div class="compras">
+                                <div id="acessos" class="acessos non" style="" visible="False">
+                                    <div class="lnk_acesso non">
+                                        <span class="lblUsuLog" id="lblUsuLog" style="display: none;"></span>
+                                        <a href="#" class="lkbLogin" id="lkbLogin" style="display: none;">Entrar</a>
+                                        <a href="#" class="lkbSair">Sair</a>
+                                    </div>
+                                </div>
+                                <div class="ctr_account">
+                                    <a href="https://www.agropecuariadomane.com.br/entrar">
+                                        <div class="icon_account">
+                                            <img src="/imagens/layout/user.png" style="">
+                                        </div>
+                                        <div class="account_content">
+                                            <span class="account_mainText">Minha<span class="txt_conta"> Conta</span></span>
+                                            <span class="account_text"><span>Faça login para acessar</span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="ctr_carr">
+                                    <a href="https://www.agropecuariadomane.com.br/carrinho">
+                                        <div class="icon_carr">
+                                            <img id="ImgCarr" src="/imagens/layout/carrinho.png" border="0" alt="carrinho de compras" />
+                                        </div>
+                                        <div id="carrinho_topo" class="carr_content">
+                                            <span class="carr_mainText">Meu <span class="txt_carrinho"> Carrinho</span></span>
+                                            <span class="carr_text"><span class="lbItens" id="lbItens">0 Itens</span></span>
+                                            <div class="cartvalor non"><span class="lbTotalItens" id="lbTotalItens" style="display: none;"></span></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Busca Mob -->  
+                    <div class="topo-busca" style="display:none">
+                        <div class="bg_busca">
+                            <input type="text" id="txtBuscaProd2" class="txtBuscaProd" maxlength="50" value=""
+                                   title="Busque produtos para seu pet, jardim ou casa" placeholder="Busque produtos para seu pet, jardim ou casa"
+                                   x-webkit-speech="x-webkit-speech" oninput="transcribe2(this.value)">
+                            <input type="button" id="btBuscar2" class="btBuscar" value="" onclick="return validaBuscar(this);">
+                            <select id="ddlCat" class="ddlCat" style="display: none;">
+                                <option></option>
+                            </select>
+                            <div id="infosTopM" class="infosTopM">
+                                <img src="/imagens/layout/menu_mob.png" class="bg_menu_m" alt="" onclick="javascript:abr_mn();" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- -->
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <div class="container body-content">
+        @*<hr />*@
+        @RenderBody()
+        <br />
+        <br />
+        @*<hr />*@
+        @*<footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>*@
+    </div>
+    <footer id="footer-conteudo">
+        <!---------- RODAPE ----------->
+        <div id="cont_rodape" runat="server" clientidmode="Static" class="cont_rodape">
+            <div class="inf_lojas">
+                <div class="inf_loja">
+                    <img class="loja1" src="/imagens/layout/loja1.png" />
+                    <div class="loja_001">
+                        <span class="info_lojas">Campestre</span><br />
+                        <span>Av. Laranjal Paulista, 690</span><br />
+                        <span>19 3052-0136</span><span>   </span><span>19 99778-0777</span><br />
+                        <div class="funcionamento">
+                            <span class="info_lojas">Funcionamento</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>8h às 19h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 14h</span><br />
+                            </div>
+                            <div>
+                                <span>Domingo</span><br />
+                                <span>9h às 13h</span><br />
+                            </div>
+                        </div>
+                        <div class="veterinario">
+                            <span class="info_lojas">Veterinário</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>14h às 18h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 13h</span><br />
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="loja1" src="/imagens/layout/loja2.png" />
+                    <div class="loja_001">
+                        <span class="info_lojas">Vollet</span><br />
+                        <span>Av. Laranjal Paulista, 690</span><br />
+                        <span>19 3052-0136</span><span>   </span><span>19 3052-0136</span><br />
+                        <div class="funcionamento">
+                            <span class="info_lojas">Funcionamento</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>8h às 19h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 14h</span><br />
+                            </div>
+                            <div>
+                                <span>Domingo</span><br />
+                                <span>9h às 13h</span><br />
+                            </div>
+                        </div>
+                        <div class="veterinario">
+                            <span class="info_lojas">Veterinário</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>14h às 18h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 13h</span><br />
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="loja1" src="/imagens/layout/loja3.png" />
+                    <div class="loja_001">
+                        <span class="info_lojas">Dois Córregos</span><br />
+                        <span>Av. Laranjal Paulista, 690</span><br />
+                        <span>19 3052-0136</span><span>   </span><span>19 3052-0136</span><br />
+                        <div class="funcionamento">
+                            <span class="info_lojas">Funcionamento</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>8h às 19h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 14h</span><br />
+                            </div>
+                            <div>
+                                <span>Domingo</span><br />
+                                <span>9h às 13h</span><br />
+                            </div>
+                        </div>
+                        <div class="veterinario">
+                            <span class="info_lojas">Veterinário</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>14h às 18h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 13h</span><br />
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="loja1" src="/imagens/layout/loja4.png" />
+                    <div class="loja_001">
+                        <span class="info_lojas">Santa Terezinha</span><br />
+                        <span>Av. Laranjal Paulista, 690</span><br />
+                        <span>19 3052-0136</span><span>   </span><span>19 3052-0136</span><br />
+                        <div class="funcionamento">
+                            <span class="info_lojas">Funcionamento</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>8h às 19h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 14h</span><br />
+                            </div>
+                            <div>
+                                <span>Domingo</span><br />
+                                <span>9h às 13h</span><br />
+                            </div>
+                        </div>
+                        <div class="veterinario">
+                            <span class="info_lojas">Veterinário</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>14h às 18h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 13h</span><br />
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="loja1" src="/imagens/layout/loja5.png" />
+                    <div class="loja_001">
+                        <span class="info_lojas">Nova Piracicaba</span><br />
+                        <span>Av. Presidente Kennedy, 356</span><br />
+                        <span>19 3421-1601</span><span>   </span><span>19 99660-3484</span><br />
+                        <div class="funcionamento">
+                            <span class="info_lojas">Funcionamento</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>9h às 19h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 14h</span><br />
+                            </div>
+                            <div>
+                                <span>Domingo</span><br />
+                                <span>9h às 13h</span><br />
+                            </div>
+                        </div>
+                        <div class="veterinario">
+                            <span class="info_lojas">Veterinário</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>14h às 18h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 13h</span><br />
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="loja1" src="/imagens/layout/loja6.png" />
+                    <div class="loja_001">
+                        <span class="info_lojas">Centro</span><br />
+                        <span>Av. Laranjal Paulista, 690</span><br />
+                        <span>19 3052-0136</span><span>   </span><span>19 3052-0136</span><br />
+                        <div class="funcionamento">
+                            <span class="info_lojas">Funcionamento</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>8h às 19h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 14h</span><br />
+                            </div>
+                            <div>
+                                <span>Domingo</span><br />
+                                <span>9h às 13h</span><br />
+                            </div>
+                        </div>
+                        <div class="veterinario">
+                            <span class="info_lojas">Veterinário</span>
+                            <div>
+                                <span>Seg à Sex</span><br />
+                                <span>14h às 18h</span><br />
+                            </div>
+                            <div>
+                                <span>Sábado</span><br />
+                                <span>8h às 13h</span><br />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="rp01" class="rp-1" runat="server">
+                <div id="rodape1" class="rodape rodape1">
+                    <div class="rodape-container">
+                        <div class="address address-column">
+                            <div>
+                                <img class="img-logo" src="/imagens/layout/agro_rp.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rodape2" class="rodape rodape2">
+                    <nav id="lblTit_1" class="aefeito lblTitRdp2">Serviços</nav>
+                    <div class="rodape-container_">
+                        <div>
+                            <a id="b1.1" href="/">Informações úteis</a><br>
+                        </div>
+                    </div>
+
+                    <nav id="lblTit2" class="aefeito lblTitRdp2">Institucional</nav>
+                    <div class="rodape-container">
+                        <div><a id="b1" href="https://www.agropecuariadomane.com.br/quem-somos">Quem Somos</a></div>
+                        <div><a id="b2" href="https://www.agropecuariadomane.com.br/depoimento">Depoimentos</a></div>
+                        <div><a id="b4" href="https://www.agropecuariadomane.com.br/contato">Contato</a></div>
+                    </div>
+                </div>
+
+                <div id="rodape3" class="rodape rodape3">
+                    <nav id="lblTit3" class="aefeito lblTitRdp2">Tire suas dúvidas</nav>
+                    <div class="rdp_lnks">
+                        <div><a id="c1" href="https://www.agropecuariadomane.com.br/como-comprar">Como Comprar</a></div>
+                        <div><a id="c2" href="https://www.agropecuariadomane.com.br/seguranca">Este Site é Seguro</a></div>
+                        <div><a id="c4" href="https://www.agropecuariadomane.com.br/trocas-e-devolucoes">Trocas e Devoluções</a></div>
+                        <div><a id="c5" href="https://www.agropecuariadomane.com.br/politica-de-privacidade">Políticas de privacidade</a></div>
+                        <div><a id="c6" href="https://agropecuariadomane.com.br/blog">Dicas</a></div>
+                    </div>
+                </div>
+                <div id="rodape3.1" class="rodape rodape3.1">
+                    <nav id="lblTit3.1" class="aefeito lblTitRdp2">Tecnologia</nav>
+                    <div class="rdp_lnks1">
+                        <div class="rp_seg">
+                            <div class="rp_google">
+                                <div class="img_google"><img class="segure-img" src="/imagens/layout/google.png" alt=""></div>
+                                <span class="google">Google</span><br />
+                                <span class="seguro">Site Seguro</span>
+                            </div>
+                            <div class="rp_cloud">
+                                <div class="img_google"><img class="segure-img_cloud" src="/imagens/layout/cloud.png" alt=""></div>
+                                <span class="google">Cloudflare</span><br />
+                                <span class="seguro_cloud">Site Seguro</span>
+                            </div>
+                            <div class="rp_norton">
+                                <div class="img_google"><img class="segure-img_norton" src="/imagens/layout/norton.png" alt=""></div>
+                                <span class="google">Norton</span><br />
+                                <span class="seguro_norton">Site Seguro</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rodape5" class="rodape rodape5">
+                    <div class="txtRdp">
+                        <nav id="lblTit4" class="aefeito lblTitRdp4">Pagamento</nav>
+                        <div class="rp_seg">
+                            <div class="rp_cartao">
+                                <div class="img_google">
+                                    <img class="segure-img pgto" src="/imagens/layout/cartao.png" alt="">
+                                </div>
+                                <span class="google">Cartões de Crédito</span><br />
+                                <span class="seguro pgto">Consulte disponibilidade</span>
+                            </div>
+                            <div class="rp_boleto">
+                                <div class="img_google">
+                                    <img class="segure-img_cloud pgto" src="/imagens/layout/boleto.svg" alt="">
+                                </div>
+                                <span class="google">Boleto Bancário</span><br />
+                                <span class="seguro_cloud pgto">Pagamento Seguro</span>
+                            </div>
+                            <div class="rp_pix">
+                                <div class="img_google">
+                                    <img class="segure-img_norton pgto" src="/imagens/layout/pix.svg" alt="">
+                                </div>
+                                <span class="google">PIX</span><br />
+                                <span class="seguro_norton pgto">Simples e ágil</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-unificadas">
+                    <div id="rodape3-1" class="rodape rodape3-1">
+                        <nav id="lblTit3.1" class="aefeito lblTitRdp2">Tecnologia</nav>
+                        <div class="rdp_lnks1">
+                            <div class="rp_seg">
+                                <div class="rp_google">
+                                    <div class="img_google"><img class="segure-img" src="/imagens/layout/google.png" alt=""></div>
+                                    <span class="google">Google</span><br />
+                                    <span class="seguro">Site Seguro</span>
+                                </div>
+                                <div class="rp_cloud">
+                                    <div class="img_google"><img class="segure-img_cloud" src="/imagens/layout/cloud.png" alt=""></div>
+                                    <span class="google">Cloudflare</span><br />
+                                    <span class="seguro_cloud">Site Seguro</span>
+                                </div>
+                                <div class="rp_norton">
+                                    <div class="img_google"><img class="segure-img_norton" src="/imagens/layout/norton.png" alt=""></div>
+                                    <span class="google">Norton</span><br />
+                                    <span class="seguro_norton">Site Seguro</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="rodape-5" class="rodape rodape-5">
+                        <div class="txtRdp">
+                            <nav id="lblTit4" class="aefeito lblTitRdp4">Pagamento</nav>
+                            <div class="rp_seg">
+                                <div class="rp_cartao">
+                                    <div class="img_google">
+                                        <img class="segure-img pgto" src="/imagens/layout/cartao.png" alt="">
+                                    </div>
+                                    <span class="google">Cartões de Crédito</span><br />
+                                    <span class="seguro pgto">Consulte disponibilidade</span>
+                                </div>
+                                <div class="rp_boleto">
+                                    <div class="img_google">
+                                        <img class="segure-img_cloud pgto" src="/imagens/layout/boleto.svg" alt="">
+                                    </div>
+                                    <span class="google">Boleto Bancário</span><br />
+                                    <span class="seguro_cloud pgto">Pagamento Seguro</span>
+                                </div>
+                                <div class="rp_pix">
+                                    <div class="img_google">
+                                        <img class="segure-img_norton pgto" src="/imagens/layout/pix.svg" alt="">
+                                    </div>
+                                    <span class="google">PIX</span><br />
+                                    <span class="seguro_norton pgto">Simples e ágil</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="footer-autor">
+            <div id="rp02" class="rp-2">
+                <div class="emp_nome">
+                    <span class="nome_empresa">AGROPECUARIA DO MANE COMERCIAL LTDA - 67.053.447/0003-61</span>
+                </div>
+                <div class="emp_dev">
+                    <a href="https://4pshop.com.br"><span class="emp_dev_">Desenvolvido por</span><img class="4shop" src="/imagens/layout/4pshop_rp.png" alt="" /></a>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+    <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/aa8d2a61-63d9-4438-885f-3be34dfeb1a1-loader.js"></script>
+    <script type="text/javascript">
+
+        $('#btBuscar').click(function(event){
+            var txtBusca = $('#txtBuscaProd').val();
+            $(location).attr('href', 'https://www.agropecuariadomane.com.br/busca/m?q=' + txtBusca);
+        });
+
+    </script>
+</body>
+</html>

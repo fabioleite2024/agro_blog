@@ -1,0 +1,17 @@
+diff a/BlogVarellaMotos/Web.config b/BlogVarellaMotos/Web.config	(rejected hunks)
+@@ -10,13 +10,8 @@
+   </configSections>
+   <connectionStrings>
+     <!--<add name="IdentityDbContext" connectionString="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-BlogVarellaMotos-20171226010938.mdf;Initial Catalog=aspnet-BlogVarellaMotos-20171226010938;Integrated Security=True" providerName="System.Data.SqlClient" />-->
+-     <!--<add name="DefaultConnection" connectionString="Data Source=LAPTOP-V9TIRSL8;Initial Catalog=BlogVarellaMotos;Persist Security Info=True;User ID=sa;Password=q1w2e3r4@;MultipleActiveResultSets=True;Application Name=EntityFramework" providerName="System.Data.SqlClient" />
+-    <add name="BlogVarellaMotosEntities" connectionString="metadata=res://*/DAL.BlogVarellaMotosData.csdl|res://*/DAL.BlogVarellaMotosData.ssdl|res://*/DAL.BlogVarellaMotosData.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LAPTOP-V9TIRSL8;initial catalog=BlogVarellaMotos;persist security info=True;user id=sa;password=q1w2e3r4@;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />-->
+-
+-    <add name="DefaultConnection" connectionString="Data Source=DESKTOP-5IRCEMM\MSSQLSERVER_2014;Initial Catalog=BlogVarellaMotos;Persist Security Info=True;User ID=Rafael;Password=passoca;MultipleActiveResultSets=True;Application Name=EntityFramework" providerName="System.Data.SqlClient" />
+-    <add name="BlogVarellaMotosEntities" connectionString="metadata=res://*/DAL.BlogVarellaMotosData.csdl|res://*/DAL.BlogVarellaMotosData.ssdl|res://*/DAL.BlogVarellaMotosData.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-5IRCEMM\MSSQLSERVER_2014;initial catalog=BlogVarellaMotos;persist security info=True;user id=Rafael;password=passoca;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+-
+-
++    <add name="DefaultConnection" connectionString="Data Source=LAPTOP-V9TIRSL8;Initial Catalog=BlogVarellaMotos;Persist Security Info=True;User ID=sa;Password=q1w2e3r4@;MultipleActiveResultSets=True;Application Name=EntityFramework" providerName="System.Data.SqlClient" />
++    <add name="BlogVarellaMotosEntities" connectionString="metadata=res://*/DAL.BlogVarellaMotosData.csdl|res://*/DAL.BlogVarellaMotosData.ssdl|res://*/DAL.BlogVarellaMotosData.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=LAPTOP-V9TIRSL8;initial catalog=BlogVarellaMotos;user id=sa;password=q1w2e3r4@;multipleactiveresultsets=True;application name=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+   </connectionStrings>
+   <appSettings>
+     <add key="webpages:Version" value="3.0.0.0" />

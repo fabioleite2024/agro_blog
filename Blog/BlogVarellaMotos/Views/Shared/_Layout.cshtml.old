@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Pneus para motos - Varella Motos</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Sedgwick+Ave|Open+Sans:300,400,600,700" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</head>
+<body>
+    <section id="header-topo">
+        <div class="bordastopo" id="bordastopo">
+            <div id="ctrl_top_fx" class="ctrl_top_fx">
+
+                <div id="ctrl_cont_topo" class="ctrl_cont_topo">
+
+                    <div class="ctrl_cont_acesso">
+                        <div id="acessos" class="acessos">
+                            <a href="https://www.varellamotos.com.br/areacliente" target="_self">
+                                <span id="lblUsuLog" class="lblUsuLog">Bem-vindo </span>
+                            </a>
+                            @*<a id="lkbLogin" class="lkbLogin" href="javascript:__doPostBack('ctl00$lkbLogin','')"> cadastre-se<span class="bemvindo"> ou faça seu</span> login</a>*@
+
+                        </div>
+                    </div>
+
+                    @*<div class="dvConta" onmouseover="document.getElementById('infosTop2').style.display = '';" onmouseout="document.getElementById('infosTop2').style.display = 'none';" onclick="fOnOff('infosTop2')">
+                            <a class="aConta">Minha Conta</a>
+                            <div id="infosTop2" class="infosTop2" style="display:none;">
+                                <a id="lkbCadastro" class="lkbCads" href="javascript:__doPostBack('ctl00$lkbCadastro','')">Meu Cadastro</a><br>
+                                <a id="lkbVerPed" class="lkbPeds" href="javascript:__doPostBack('ctl00$lkbVerPed','')">Meus Pedidos</a>
+                            </div>
+                        </div>*@
+
+                    <div class="ctrl_fones right">
+                        <div class="ctrl_cont_infos"><img src="/imagens/layout/1x1.gif" class="img_top_fone" alt=""><span>(19) 3402-9010 / (19) 2533-0444</span></div>
+                        <div class="ctrl_cont_infos2">
+                            <img src="/imagens/layout/1x1.gif" class="img_top_fone2" alt="">
+                            <span style="font-weight: bold; color: rgb(255, 255, 255);">WhatsApp:</span>&nbsp;&nbsp;
+                            <span>loja virtual:&nbsp;<a href="https://goo.gl/g5EhfV"><span>(19) 98345-8080</span></a> /</span>
+                            <span>física:&nbsp;<a href="https://goo.gl/5hKkSn"><span>(19) 99516-3597</span></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="topo" class="topo">
+                <div class="top_center">
+                    <div class="ctrl_cont">
+                        <div id="infosTop" class="infosTop">
+                            <img src="/imagens/layout/ico_menu.png" class="bg_menu_m" alt="" onclick="javascript:abr_mn();">
+                        </div>
+                        <div class="logomarca">
+                            <a id="hlLoja" href="../" target="_parent"><img id="imgLogo" class="imgLogo" border="0" src="../imagens/layout/logo.png"></a>
+                        </div>
+                        <div class="ctrl_top">
+                            <div class="ctrl_loja">
+                                <div class="loja1">
+                                    <a href="https://www.varellamotos.com.br/quemsomos">
+                                        <img src="/imagens/layout/loja-fisica.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="loja2">
+                                    <a href="https://www.varellamotos.com.br/depoimentos">
+                                        <img src="/imagens/layout/avaliar-loja.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Busca Desk -->
+                            <div class="ctrl_busca">
+                                <div id="spExemp1" class="spExemp spExemp1"><div>Busque por modelo (Exemplo: ME888) ou medida (Moto: 90/90-21 / Quadri: 21x7x10)</div></div>
+                                <div id="bg_busca" class="bg_busca">
+                                    <input name="ctl00$txtBuscaProd" type="text" maxlength="50" id="txtBuscaProd" title="Olá, o que você procura?" class="txtBuscaProd" placeholder="Olá, o que você procura?" x-webkit-speech="x-webkit-speech" onwebkitspeechchange="transcribe2(this.value)">
+                                    <input type="submit" name="ctl00$btBuscar" value="" onclick="return validaBuscar(this);" id="btBuscar" class="btBuscar">
+                                </div>
+                                <div id="spExemp2" class="spExemp spExemp2">Busque por modelo (Exemplo: ME888) ou medida (Moto: 90/90-21 / Quadri: 21x7x10)</div>
+                            </div>
+                            <!-- -->
+                        </div>
+
+                        <div class="creden_top"><a href="https://www.varellamotos.com.br/quemsomos"><img title="Credenciado" alt="Credendiado" src="/imagens/layout/credenciado1.png"></a></div>
+
+                        <div class="ctrl_top2">
+                            <div class="ctrl_socials">
+                                <a href="https://www.facebook.com/lojavarellamotos" class="ctrl_social" target="_blank"><div class="dv_social1"></div></a>
+                                <a href="https://www.instagram.com/varellamotos/" class="ctrl_social" target="_blank"><div class="dv_social2"></div></a>
+                                <a href="https://www.youtube.com/channel/UC8HZPue9n0iGf9BjX2otcqQ" class="ctrl_social" target="_blank"><div class="dv_social3"></div></a>
+                            </div>
+
+
+                            <div id="UpdatePanelCarrTop">
+
+                                <div class="buscaCarr">
+                                    <a href="https://www.varellamotos.com.br/carrinho" class="txtmeucarr">
+                                        <div id="carrinho_topo" class="carrinho_topo">
+                                            <img id="ImgCarr" class="imgCarr" border="0" src="../imagens/layout/carr.png" alt="sacola de compras">
+                                            @*<div class="ctrl_carr">
+                                                    <div class="tit_carr">
+                                                        VOCÊ POSSUI
+                                                    </div>
+                                                    <span id="lbItens" class="lbItens">0 itens</span>&nbsp;
+
+                                                </div>*@
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="clear">
+                        </div>
+                    </div>
+                </div>
+                <!-- Busca Mob -->
+                <div class="ctrl_search">
+                    <div class="bt_busca_m">
+                        <img src="/imagens/layout/bt_buscar.png" id="bt_show_busca" alt="" class="bt_show_busca">
+                    </div>
+                    <div class="infosTop3" id="dv_busca_comp" style="display: none;">
+                        <div class="bg_busca2">
+                            <div class="ctrl_input_busca">
+                                <input name="ctl00$txtBuscaProd2" type="text" maxlength="50" id="txtBuscaProd2" title="Olá, o que você procura?" class="txtBuscaProd" placeholder="Olá, o que você procura?" x-webkit-speech="x-webkit-speech" onwebkitspeechchange="transcribe2(this.value)">
+                                <input name="ctl00$btBuscar2" id="btBuscar2" class="btBuscar">
+
+                            </div>
+                            <div id="dv_hidden_busca" class="dv_hidden_busca">
+                                X
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+            </div>
+
+        </div>
+    </section>
+    <div class="container body-content">
+        <hr />
+        @RenderBody()
+        <br />
+        <br />
+        @*<hr />*@
+        @*<footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>*@
+    </div>
+    <footer id="footer-conteudo">
+        <!---------- RODAPE ----------->
+        <div id="pnlRodape" class="pnlRodape">
+            <div id="cont_rodape" class="cont_rodape">
+                <section id="footer-nav">
+                    <div id="rp01" class="rp-1">
+                        <div id="efeito">
+                            <div id="rodape1" class="rodape rodape1">
+                                <nav id="lblTit1" class="aefeito lblTitRdp1">INSTITUCIONAL</nav>
+                                <div>
+                                    <a id="a1" href="https://www.varellamotos.com.br/quemsomos">Quem Somos</a><br>
+                                    <a id="a2" href="https://www.varellamotos.com.br/depoimentos">Depoimentos</a><br>
+                                    <a id="a3" href="https://www.varellamotos.com.br/contato">Contato</a><br>
+                                </div>
+                            </div>
+                            <div id="rodape2" class="rodape rodape2">
+                                <nav id="lblTit2" class="aefeito lblTitRdp2">TIRE SUAS DUVIDAS</nav>
+                                <div>
+                                    <a id="a21" href="https://www.varellamotos.com.br/comocomprar"> Como comprar</a><br>
+                                    <a id="a22" href="https://www.varellamotos.com.br/privacidade"> Este site é seguro?</a><br>
+                                    <a id="a23" href="https://www.varellamotos.com.br/pagamentos"> Formas de Pagamento</a><br>
+                                    <a id="a24" href="https://www.varellamotos.com.br/privacidade"> Politica de Privacidade</a><br>
+                                    <a id="a25" href="https://www.varellamotos.com.br/trocasedevolucoes"> Troca e Devoluções</a><br>
+                                    <a id="a26" href="https://www.varellamotos.com.br/dicas"> Dicas Varella Motos</a><br>
+                                </div>
+                            </div>
+
+                            <div id="rodape3" class="rodape rodape3">
+                                <div id="lblTit3" class="aefeito lblTitRdp3">FORMAS DE PAGAMENTO</div>
+                                <div class="forms_pgto">
+                                    <img alt="" src="/imagens/layout/forms_pgto.png">
+                                </div>
+                            </div>
+                            <div id="rodape4" class="rodape rodape4">
+                                <img title="Pirelli" alt="Pirelli" src="/imagens/layout/pirelli.jpg">
+                            </div>
+
+                            <div class="clear">
+                            </div>
+                        </div>
+                        <div id="rodape5" class="rodape rodape5">
+                            <div id="lblTit5" class="aefeito lblTitRdp5">COMPRA SEGURA</div>
+                            <div class="selos">
+
+                                <div class="dv_ebit">
+                                    <a id="seloEbit" href="http://www.ebit.com.br/varella-motos/selo" target="_blank" onclick="redir(this.href);" title="Avaliado pelos consumidores" oncontextmenu="alert(&quot;Cópia proibida ! A certificação e-bit é de uso exclusivo de lojas conveniadas à e-bit.&quot;);return false;" value="1" style="display: block; overflow: hidden; position: relative;">
+                                        <img src="https://newimgebit-a.akamaihd.net/ebitBR/selo/img_72640.png" style="border: 0px;">
+                                        <script src="//validator.ebit.com.br?ebitId=72640&amp;typeTag=selo&amp;urlOrigin=https%3A%2F%2Fwww.varellamotos.com.br%2Fcontato" async="true"></script>
+                                    </a>
+                                    <script type="text/javascript" async="" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?72640">
+                                    </script>
+                                </div>
+
+                                <div id="divSeloNorton" class="dvSeloNorton">
+                                    <a target="_blank" title="Norton" href="https://safeweb.norton.com/report/show?url=www.varellamotos.com.br">
+                                        <img title="Norton" alt="Norton" src="/imagens/layout/norton.png">
+                                    </a>
+                                </div>
+                                <div id="divSeloGoogle" class="dvSeloGoogle">
+                                    <a target="_blank" title="Google" href="http://www.google.com/safebrowsing/diagnostic?site=www.varellamotos.com.br">
+                                        <img title="Google" alt="Google" src="/imagens/layout/google.png">
+                                    </a>
+                                </div>
+                                <div id="dvSeloClearSale" class="dvSeloClearSale"><a target="_blank" title="Clear Sale" href="https://br.clear.sale"><img src="/imagens/layout/clearsale.antifraude.png" alt="Clear Sale"></a></div>
+                                <div class="selocompre"><a href="https://selo.clearsale.com.br/Loja/ExibirDetalhesLoja/583e4985-36af-4f90-8f65-7cb4a7453128" target="_blank"><img src="https://selo.clearsale.com.br/Imagem/583e4985-36af-4f90-8f65-7cb4a7453128" alt="Compre e Confie"></a></div>
+                                <div class="selo">
+                                    <!-- segurança e selo -->
+                                    <div class="seloseal">
+                                        <span id="siteseal">
+                                            <script async="" type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=KDPUXpdQhI3NmFxFf5MJO2U5kTfgymUXZq4TG1nKshZ4sQ8tRCTFpq5zmtRd"></script>
+                                            <img style="cursor:pointer;cursor:hand" src="https://seal.godaddy.com/images/3/pt-BR/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="creden"><a href="https://www.varellamotos.com.br/quemsomos"><img title="Credenciado" alt="Credendiado" src="/imagens/layout/credenciado1_rdp.png"></a></div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </section>
+                <section id="footer-infos">
+                    <div id="rp02" class="rp-2">
+                        <div id="rodape6" class="rodape rodape6">
+                            <div>
+                                <span class="rdpFrete"><b>Frete Grátis SP</b>: para compras acima de R$199,00</span><br><br>
+                                <span id="lblTit6" class="tit_txtrodape"></span>
+                                <span class="aviso">Os preços podem sofrer alterações sem aviso prévio. As ofertas são válidas por tempo determinado e/ou o término do estoque. As vendas estão sujeitas a análise e confirmação dos dados. As imagens e fotos contidas neste site pertencem a Varella Motos e sua cópia é ilegal.</span>
+                                <br>
+                            </div>
+                        </div>
+                        <div id="rodape7" class="rodape rodape7">
+                            <span id="lblTit7" class="tit_txtrodape"></span>
+                            <span class="lblCopyright">
+                                VARELLA MOTOS COMERCIAL LTDA / CNPJ: 07.612.495/0001-59<br>
+                                Avenida Independência, 3299 - Loja 1, Bairro dos Alemães – Piracicaba - SP, Cep: 13.416-240
+                            </span>
+                            <br><br>
+                        </div>
+
+
+                        <div class="social" style="display: none;">
+                            <div class="Curtir">
+
+                            </div>
+                            <div class="Comp">
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <section id="footer-autor">
+            <div class="cont_rodape2">
+                <div id="rp03" class="rp-3">
+                    <div class="cr txtrodape">© 2017 - Varella Motos - Todos os direitos reservados.</div>
+                    <div class="autor" align="right">
+                        <div class="logopw">
+                            <a href="http://www.piraweb.com.br/" target="_blank" class="lkpw">
+                                <img id="imgLogoDesenv" border="0" class="imgPw" src="/imagens/layout/img_pw.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <script type="text/javascript">
+
+        $('#btBuscar').click(function(event){
+            var txtBusca = $('#txtBuscaProd').val();
+            $(location).attr('href', 'https://www.varellamotos.com.br/busca/m?q=' + txtBusca);
+        });       
+
+    </script>
+</body>
+</html>

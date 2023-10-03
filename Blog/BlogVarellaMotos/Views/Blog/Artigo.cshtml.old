@@ -1,0 +1,40 @@
+﻿@model BlogVarellaMotos.Models.BlogPostViewModel
+@using BlogVarellaMotos.Framework;
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center">
+    <h2>@Html.DisplayFor(model => model.Title)</h2>
+    <h4>@Html.DisplayFor(model => model.SubTitle)</h4>
+    <hr />
+    Por: @Html.DisplayFor(model => model.NomeAutor) - @Convert.ToDateTime(Html.DisplayFor(model => model.DateCreated).ToString()).ToShortDateString()
+</div>
+<br />
+<br />
+<br />
+<<<<<<< HEAD
+<div class="text-center">
+    <img src="@Url.Content(Model.ImagePath).ToString()" width="600" alt="@Model.Title" title="@Model.SubTitle" />
+    <br />
+    <br />
+    @Html.Raw(Model.Body)
+=======
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <img src="@Url.Content(Helper.ConcatUrlWithDiretorio(Model.ImagePath)).ToString()" style="max-width:100% !important" alt="@Html.Raw(@Model.Title)" title="@Html.Raw(@Model.SubTitle)" />
+        >><br />
+        <br />
+        @Html.Raw(Model.Body)
+    </div>
+</div>
+<br />
+<a href="@Request.UrlReferrer" class="btn btn-default">Voltar</a>
+
+<script type="text/javascript">
+    $('meta[name="description"]').attr('content', '@Html.Raw(@Model.MetaDescription)');
+    $('title').html('@Html.Raw(@Model.Title)');
+</script>

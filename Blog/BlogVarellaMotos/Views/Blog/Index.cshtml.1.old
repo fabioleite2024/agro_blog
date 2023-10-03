@@ -1,0 +1,103 @@
+﻿@model PagedList.IPagedList<BlogVarellaMotos.Models.BlogPostViewModel>
+@using BlogVarellaMotos.Framework;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+            <h1>Blog</h1>
+            <p>
+                Quem tem moto, gosta de economizar e valoriza o bom atendimento já conhece a Varella Motos.  Mas queremos ir além da venda e estar mais perto de vocês, compartilhando nossas dicas e experiências com os produtos que oferecemos.
+       Neste espaço você poderá conferir vídeos sobre os produtos que comercializamos, comparações entre pneus, dicas de utilização e diversas matérias sobre assuntos relevantes escritas por nós.
+
+                <div id="complementoTextoBlog" style="display:none">                    
+       Como motociclistas sempre sentimos falta de blogs e vídeos no <a href="#" style="font-weight:bold;text-decoration:none">youtube</a> que expliquem com segurança sobre cada modelo de pneu, comparando as opções do mercado e dando dicas sobre utilização. Testamos muitos modelos e estamos preparando um conteúdo incrível para postar por aqui! Fique de olho e a vontade para participar, nos recomendando assuntos que gostariam de ter acesso.<br>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para quem ainda não conhece a <a href="http://www.varellamotos.com.br" style="font-weight:bold; text-decoration:none">Varella Motos</a>: Somos uma família apaixonada por moto, que trabalha desde 2005 no ramo de pneus no Estado de SP. Hoje já somos a loja com a maior variedade de modelos e marcas de <a href="http://www.varellamotos.com.br/pneus-para-motos/m?dep=000001" style="font-weight:bold; text-decoration:none">pneus para motos</a> na internet e desde 2016 a revenda credenciada campeã em vendas <a href="http://www.varellamotos.com.br/pneus-para-motos/pirelli/m?dep=000001&marca=000001" style="font-weight:bold; text-decoration:none">Pirelli</a> e <a href="http://www.varellamotos.com.br/pneus-para-motos/metzeler/m?dep=000001&marca=000002"  style="font-weight:bold; text-decoration:none">Metzeler</a> no Brasil. <br>
+Nossa missão é oferecer o melhor serviço e atendimento possível para nossos clientes, pneu é coisa séria! E disso a gente entende.
+        Fiquem a vontade para opiniar e pedir temas pra gente! <br>Esperamos que gostem do espaço.
+<br>
+                </div>
+                <div class="line-wrapper">
+                    <button class="btn" type="button" id="mostrar">Mostrar</button>
+                    <button class="btn" type="button" id="ocultar">Ocultar</button>
+                </div>
+
+            </p>
+            <br />
+        </div>
+    </div>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+
+            <div class="col-md-4" style="padding: 10px;">
+                <a href="/artigo/@item.SlugTitle" title="@item.SubTitle" class="panel panel-hover" style="background-image: url(@Url.Content(Helper.ConcatUrlWithDiretorio(item.ImagePath) ?? "~/empty-image.jpg").ToString());background-size: 100% Auto;border-radius:0px;border:0px">
+                    <div class="caption align-left">
+                        @item.SubTitle
+                    </div>
+                </a>
+            </div>
+
+
+            @*<div id="container-principal-artigo" class="col-md-4">
+        <div id="container-image-artigo" class="col-md-12" style="background-image: url(@Url.Content(Helper.Helper.ConcatUrlWithDiretorio((item.ImagePath) ?? "~/empty-image.jpg").ToString());">
+            <div id="container-subtitulo-artigo" class="col-md-11 col-xs-11">
+                @Html.RouteLink(@System.Web.HttpUtility.HtmlDecode(@Html.DisplayFor(modelItem => item.SubTitle).ToString()), "BlogPost", new { slugTitle = item.SlugTitle })
+            </div>
+        </div>
+    </div>*@
+
+        }
+    </div>
+    <br />
+    <br />
+    <div class="col-md-12 text-center">
+
+        <div class="row">
+            <p class="row">
+                Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+            </p>
+            <br />
+
+            @Html.ActionLink("<<", "Index", new { pagina = 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }, new { @style = "padding:10px", @class = "paginacao" })
+            @Html.ActionLink("Anterior", "Index", new { pagina = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }, new { @style = "padding:10px", @class = "paginacao", @id = "anterior" })
+
+            @Html.ActionLink("Próxima", "Index", new { pagina = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }, new { @style = "padding:10px", @class = "paginacao", @id = "proximo" })
+            @Html.ActionLink(">>", "Index", new { pagina = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }, new { @style = "padding:10px", @class = "paginacao" })
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $('#ocultar').hide();
+
+    $('#mostrar').click(function (event) {
+        $('#mostrar').hide();
+        $('#ocultar').show();
+        $('#complementoTextoBlog').show();
+    });
+
+    $('#ocultar').click(function (event) {
+        $('#ocultar').hide();
+        $('#mostrar').show();
+        $('#complementoTextoBlog').hide();
+    });
+
+    if(@Model.PageNumber == '1'){
+        $('#anterior').click(function(){
+            return false;
+        });
+    }
+
+    if(@Model.PageNumber == @Model.PageCount){
+        $('#proximo').click(function(){
+            return false;
+    });
+    }
+
+</script>

@@ -1,0 +1,84 @@
+﻿@model PagedList.IPagedList<BlogVarellaMotos.Models.BlogPostViewModel>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br />
+<br />
+<p>
+    @Html.ActionLink("Criar novo artigo", "CreateBlogPost",null, new { @class = "btn btn-success" })
+</p>
+<br />
+<table class="table">
+    <tr>
+        <th>
+            Título
+        </th>
+        <th>
+            Sub-título
+        </th>
+        <th>
+            Data de criação
+        </th>
+        <th>
+            Ações
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td width="30%">
+            @Html.DisplayFor(modelItem => item.SubTitle)
+        </td>
+        <td>
+            @Convert.ToDateTime(Html.DisplayFor(modelItem => item.DateCreated).ToString()).ToShortDateString()
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "EditBlogPost", new { id = item.Id }, new { @class = "btn btn-default" })
+            @Html.ActionLink("Visualisar", "Artigo", "Blog", new { slugTitle = item.SlugTitle }, new { target = "_blank", @class = "btn btn-default" })
+            @Html.ActionLink("Excluir", "ConfirmDeleteBlogPost", new { id = item.Id }, new { @class = "btn btn-default" })
+        </td>
+    </tr>
+}
+
+</table>
+
+<br />
+<br />
+<div class="col-md-12 text-center">
+    <div class="row">
+
+        Página @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) de @Model.PageCount
+
+        @if (Model.HasPreviousPage)
+        {
+            @Html.ActionLink("<<", "Index", new { pagina = 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
+            @Html.Raw(" ");
+            @Html.ActionLink("< Anterior", "Index", new { pagina = Model.PageNumber - 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
+        }
+        else
+        {
+            @:<<
+            @Html.Raw(" ");
+            @:< Anterior
+        }
+
+        @if (Model.HasNextPage)
+        {
+            @Html.ActionLink("Próxima >", "Index", new { pagina = Model.PageNumber + 1, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
+            @Html.Raw(" ");
+            @Html.ActionLink(">>", "Index", new { pagina = Model.PageCount, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter })
+        }
+        else
+        {
+            @:Próxima >
+            @Html.Raw(" ")
+            @:>>
+        }
+    </div>
+</div>
+<br />
+<br />

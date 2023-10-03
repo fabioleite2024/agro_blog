@@ -1,0 +1,43 @@
+﻿@model BlogVarellaMotos.Models.BlogPostViewModel
+@using BlogVarellaMotos.Framework;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="text-center">
+    <h2>@Html.DisplayFor(model => model.Title)</h2>
+    <h4>@Html.DisplayFor(model => model.SubTitle)</h4>
+    <hr />
+    @* Por: @Html.DisplayFor(model => model.NomeAutor) - @Convert.ToDateTime(Html.DisplayFor(model => model.DateCreated).ToString()).ToShortDateString() *@
+</div>
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <img src="@Url.Content(Helper.ConcatUrlWithDiretorio(Model.ImagePath)).ToString().Replace("/blog/","/blog/imagens/")" style="max-width:100% !important" alt="@Html.Raw(@Model.Title)" title="@Html.Raw(@Model.SubTitle)" />
+        @*<img src="@Url.Content(Helper.ConcatUrlWithDiretorio(Model.ImagePath)).ToString().Replace("/imagens/","/blog/imagens/")" style="max-width:100% !important" alt="@Html.Raw(@Model.Title)" title="@Html.Raw(@Model.SubTitle)" />*@
+        <br />
+        <br />
+        @Html.Raw(Model.Body)
+    </div>
+<br>
+<br />
+<!-- <hr> -->
+<div class="clear" style="width: 100%;max-width: 800px;margin: 0 auto">
+<div role="main" id="formulario-do-blog-3995a57334b367e427fe"></div> 
+<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"></script> 
+<script type="text/javascript">
+    new RDStationForms('formulario-do-blog-3995a57334b367e427fe-html', 'UA-53312048-1').createForm();
+</script>
+</div>
+</div>
+<br />
+<a href="@Request.UrlReferrer" class="btn btn-default">Voltar</a>
+
+<script type="text/javascript">
+    $('meta[name="description"]').attr('content', '@Html.Raw(@Model.MetaDescription)');
+    $('title').html('@Html.Raw(@Model.Title)');
+</script>

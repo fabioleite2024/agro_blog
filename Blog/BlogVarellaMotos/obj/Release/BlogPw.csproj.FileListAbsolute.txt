@@ -1,0 +1,254 @@
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\ApplicationInsights.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\BlogVarellaMotos.dll.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\BlogVarellaMotos.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\BlogVarellaMotos.pdb
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\csc.exe
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\csc.exe.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\csc.rsp
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\csi.exe
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\csi.rsp
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\System.AppContext.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\System.Collections.Immutable.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\System.IO.FileSystem.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\System.Reflection.Metadata.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\vbc.exe
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\vbc.exe.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\vbc.rsp
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\VBCSCompiler.exe
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\roslyn\VBCSCompiler.exe.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Antlr3.Runtime.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\EntityFramework.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\EntityFramework.SqlServer.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.Agent.Intercept.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.DependencyCollector.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.Web.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.WindowsServer.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.ApplicationInsights.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Core.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Cookies.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Facebook.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Google.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.OAuth.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Twitter.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Web.Infrastructure.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Newtonsoft.Json.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Owin.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\PagedList.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Net.Http.Formatting.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Helpers.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Http.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Mvc.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Optimization.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Razor.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.WebPages.Deployment.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.WebPages.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.WebPages.Razor.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\WebGrease.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\PagedList.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Net.Http.Formatting.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Http.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Helpers.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Mvc.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Optimization.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.Razor.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.WebPages.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.WebPages.Deployment.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\System.Web.WebPages.Razor.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Antlr3.Runtime.pdb
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Newtonsoft.Json.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\EntityFramework.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\EntityFramework.SqlServer.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Core.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Facebook.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Cookies.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.OAuth.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Google.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.Twitter.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.ApplicationInsights.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.DependencyCollector.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.WindowsServer.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\bin\Microsoft.AI.Web.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\obj\Release\BlogPw.csprojAssemblyReference.cache
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\obj\Release\BlogPw.csproj.CoreCompileInputs.cache
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\obj\Release\BlogPw.csproj.CopyComplete
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\obj\Release\BlogVarellaMotos.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG\BlogVarellaMotos\obj\Release\BlogVarellaMotos.pdb
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\ApplicationInsights.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\BlogVarellaMotos.dll.config
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\BlogVarellaMotos.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\BlogVarellaMotos.pdb
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Antlr3.Runtime.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\EntityFramework.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\EntityFramework.SqlServer.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.Agent.Intercept.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.DependencyCollector.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.Web.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.WindowsServer.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.ApplicationInsights.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Core.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Cookies.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Facebook.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Google.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.OAuth.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Twitter.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Web.Infrastructure.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Newtonsoft.Json.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Owin.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\PagedList.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Net.Http.Formatting.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Helpers.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Http.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Mvc.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Optimization.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Razor.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.WebPages.Deployment.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.WebPages.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.WebPages.Razor.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\WebGrease.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\PagedList.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Net.Http.Formatting.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Http.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Helpers.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Mvc.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Optimization.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.Razor.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.WebPages.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.WebPages.Deployment.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\System.Web.WebPages.Razor.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Antlr3.Runtime.pdb
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Newtonsoft.Json.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\EntityFramework.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\EntityFramework.SqlServer.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Core.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Facebook.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Cookies.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.OAuth.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Google.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.Twitter.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.ApplicationInsights.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.DependencyCollector.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.WindowsServer.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\bin\Microsoft.AI.Web.xml
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\obj\Release\BlogPw.csprojAssemblyReference.cache
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\obj\Release\BlogPw.csproj.CoreCompileInputs.cache
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\obj\Release\BlogPw.csproj.CopyComplete
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\obj\Release\BlogVarellaMotos.dll
+G:\DADOS\_PROJETOS\LOJAS\VARELLA\BLOG ECOMMERCE\BLOG_G\BlogVarellaMotos\obj\Release\BlogVarellaMotos.pdb
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\ApplicationInsights.config
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\BlogVarellaMotos.dll.config
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\BlogVarellaMotos.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\BlogVarellaMotos.pdb
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Antlr3.Runtime.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\EntityFramework.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\EntityFramework.SqlServer.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.Agent.Intercept.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.DependencyCollector.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.Web.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.WindowsServer.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.ApplicationInsights.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Core.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Cookies.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Facebook.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Google.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.OAuth.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Twitter.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Web.Infrastructure.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Newtonsoft.Json.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Owin.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\PagedList.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Net.Http.Formatting.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Helpers.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Http.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Mvc.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Optimization.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Razor.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.WebPages.Deployment.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.WebPages.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.WebPages.Razor.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\WebGrease.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\PagedList.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Net.Http.Formatting.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Http.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Helpers.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Mvc.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Optimization.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.Razor.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.WebPages.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.WebPages.Deployment.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\System.Web.WebPages.Razor.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Antlr3.Runtime.pdb
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Newtonsoft.Json.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\EntityFramework.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\EntityFramework.SqlServer.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Core.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Facebook.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Cookies.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.OAuth.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Google.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.Twitter.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.ApplicationInsights.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.DependencyCollector.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.WindowsServer.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\bin\Microsoft.AI.Web.xml
+C:\E-comm-Agro\Blog\BlogVarellaMotos\obj\Release\BlogPw.csprojAssemblyReference.cache
+C:\E-comm-Agro\Blog\BlogVarellaMotos\obj\Release\BlogPw.csproj.CoreCompileInputs.cache
+C:\E-comm-Agro\Blog\BlogVarellaMotos\obj\Release\BlogPw.csproj.CopyComplete
+C:\E-comm-Agro\Blog\BlogVarellaMotos\obj\Release\BlogVarellaMotos.dll
+C:\E-comm-Agro\Blog\BlogVarellaMotos\obj\Release\BlogVarellaMotos.pdb

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BlogVarellaMotosModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BlogVarellaMotosEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BlogPost" EntityType="BlogVarellaMotosModel.BlogPost" />
+    <EntitySet Name="AspNetUsers" EntityType="BlogVarellaMotosModel.AspNetUsers" />
+    <AssociationSet Name="FK_BlogPost_AspNetUsers" Association="BlogVarellaMotosModel.FK_BlogPost_AspNetUsers">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="BlogPost" EntitySet="BlogPost" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BlogPost_AspNetUsers1" Association="BlogVarellaMotosModel.FK_BlogPost_AspNetUsers1">
+      <End Role="AspNetUsers" EntitySet="AspNetUsers" />
+      <End Role="BlogPost" EntitySet="BlogPost" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BlogPost">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SubTitle" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="AuthorId" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Body" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MetaDescription" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SlugTitle" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="DateModified" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedById" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AspNetUsers" Relationship="BlogVarellaMotosModel.FK_BlogPost_AspNetUsers" FromRole="BlogPost" ToRole="AspNetUsers" />
+    <NavigationProperty Name="AspNetUsers1" Relationship="BlogVarellaMotosModel.FK_BlogPost_AspNetUsers1" FromRole="BlogPost" ToRole="AspNetUsers" />
+  </EntityType>
+  <EntityType Name="AspNetUsers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+    <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+    <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="BlogPost" Relationship="BlogVarellaMotosModel.FK_BlogPost_AspNetUsers" FromRole="AspNetUsers" ToRole="BlogPost" />
+    <NavigationProperty Name="BlogPost1" Relationship="BlogVarellaMotosModel.FK_BlogPost_AspNetUsers1" FromRole="AspNetUsers" ToRole="BlogPost" />
+  </EntityType>
+  <Association Name="FK_BlogPost_AspNetUsers">
+    <End Type="BlogVarellaMotosModel.AspNetUsers" Role="AspNetUsers" Multiplicity="1" />
+    <End Type="BlogVarellaMotosModel.BlogPost" Role="BlogPost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BlogPost">
+        <PropertyRef Name="AuthorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BlogPost_AspNetUsers1">
+    <End Type="BlogVarellaMotosModel.AspNetUsers" Role="AspNetUsers" Multiplicity="0..1" />
+    <End Type="BlogVarellaMotosModel.BlogPost" Role="BlogPost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AspNetUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="BlogPost">
+        <PropertyRef Name="ModifiedById" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

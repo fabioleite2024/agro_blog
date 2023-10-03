@@ -1,0 +1,66 @@
+﻿@using BlogVarellaMotos.Models
+@model LoginViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Agropecuária do Mané</title>
+    <link href="~/Content/Site2.css" rel="stylesheet" type="text/css" />
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    
+    <div class="container body-content">
+        <div class="main-content-agile">
+            <div class="sub-main-w3 text-center">
+                <h2>Login</h2>
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="pom-agile">
+                        @*<span class="fa fa-user-o" aria-hidden="true"></span>
+                        <input placeholder="Email" name="Name" class="user" type="email" required="">*@
+
+                        @Html.TextBoxFor(m => m.Email, new { @class = "user", @type = "email", @placeholder = "Email", @required = "" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+
+                    </div>
+                    <div class="pom-agile">
+                        @*<span class="fa fa-key" aria-hidden="true"></span>
+                        <input placeholder="Senha" name="Password" class="pass" type="password" required="">*@
+                        @Html.PasswordFor(m => m.Password, new { @class = "pass", @type = "password", @placeholder = "Senha", @required = "" })
+                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="sub-w3l">
+                        <div class="sub-agile">
+                            @*@Html.CheckBoxFor(m => m.RememberMe)
+                            @Html.LabelFor(m => m.RememberMe)*@
+                            @*<input type="checkbox" id="brand1" value="">
+                            <label for="brand1">
+                                <span></span>Lembrar
+                            </label>*@
+                        @Html.ActionLink("Esqueceu a senha?", "ForgotPassword")
+                        </div>
+                        @*<a href="#">Esqueceu a senha?</a>*@
+                        <div class="clear"></div>
+                    </div>
+                    <div class="right-w3l">
+                        <input type="submit" class="btn-block" value="Entrar">
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
