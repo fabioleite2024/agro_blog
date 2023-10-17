@@ -9872,7 +9872,7 @@ strong {
         display: none;
     }
     .topo-busca{
-        display:inline;
+        display:block!important;
     }
     .topo{
         height: 100%;
@@ -9976,6 +9976,11 @@ strong {
         justify-content: center;
     }
 }
+
+.topo-busca{
+    display:none;
+}
+
 @media screen and (max-width: 768px) {
     .logomarca {
         height: 41.73px;

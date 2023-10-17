@@ -10,8 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Poppins:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Sans:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
 
-    @*<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />*@
-    @*<link href="~/Content/Site_2.css" rel="stylesheet" type="text/css" />*@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
@@ -98,18 +96,18 @@
                         </div>
                     </div>
                     <!-- Busca Mob -->  
-                    <div class="topo-busca" style="display:none">
+                    <div class="topo-busca">
                         <div class="bg_busca">
                             <input type="text" id="txtBuscaProd2" class="txtBuscaProd" maxlength="50" value=""
                                    title="Busque produtos para seu pet, jardim ou casa" placeholder="Busque produtos para seu pet, jardim ou casa"
                                    x-webkit-speech="x-webkit-speech" oninput="transcribe2(this.value)">
                             <input type="button" id="btBuscar2" class="btBuscar" value="" onclick="return validaBuscar(this);">
-                            <select id="ddlCat" class="ddlCat" style="display: none;">
+                            @*<select id="ddlCat" class="ddlCat" style="display: none;">
                                 <option></option>
-                            </select>
-                            <div id="infosTopM" class="infosTopM">
+                            </select>*@
+                            @*<div id="infosTopM" class="infosTopM">
                                 <img src="/imagens/layout/menu_mob.png" class="bg_menu_m" alt="" onclick="javascript:abr_mn();" />
-                            </div>
+                            </div>*@
                         </div>
                     </div>
                     <!-- -->

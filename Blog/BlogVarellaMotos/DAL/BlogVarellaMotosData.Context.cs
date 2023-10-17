@@ -16,8 +16,8 @@ namespace BlogVarellaMotos.DAL
     public partial class BlogVarellaMotosEntities : DbContext
     {
         public BlogVarellaMotosEntities()
-            : base("name=BlogManeEntities")
-            //: base("name=BlogTestManeEntities")
+            //: base("name=BlogManeEntities")
+            : base("name=BlogTestManeEntities")
         {
         }
     
